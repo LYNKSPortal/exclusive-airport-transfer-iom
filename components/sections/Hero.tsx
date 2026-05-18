@@ -68,7 +68,7 @@ export const Hero = () => {
                 <div className="flex justify-center mb-2">
                   <Shield className="w-8 h-8 text-[#D4AF37]" />
                 </div>
-                <p className="text-sm text-gray-400">Fully Licensed</p>
+                <p className="text-sm text-gray-400">Fully Licenced</p>
               </motion.div>
               <motion.div
                 className="text-center"

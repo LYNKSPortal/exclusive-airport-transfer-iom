@@ -10,7 +10,7 @@ export const About = () => {
   const stats = [
     { icon: Award, value: '10+', label: 'Years Experience' },
     { icon: Users, value: '300+', label: 'Happy Clients' },
-    { icon: Shield, value: '100%', label: 'Licensed & Insured' },
+    { icon: Shield, value: '100%', label: 'Licenced & Insured' },
     { icon: TrendingUp, value: '5.0', label: 'Customer Rating' },
   ];
 
@@ -80,7 +80,7 @@ export const About = () => {
                   <div>
                     <h3 className="text-xl font-bold text-white mb-2">Safety First</h3>
                     <p className="text-white md:text-gray-400">
-                      Fully licensed, insured, and experienced driver. Your safety and comfort 
+                      Fully licenced, insured, and experienced driver. Your safety and comfort 
                       are my top priorities on every journey.
                     </p>
                   </div>

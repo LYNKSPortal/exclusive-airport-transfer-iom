@@ -22,8 +22,8 @@ export const FAQ = () => {
       answer: 'I provide coverage across the entire Isle of Man, including Douglas, Ramsey, Peel, Castletown, and all areas in between. I also offer scenic tour routes for visitors.',
     },
     {
-      question: 'Are you licensed and insured?',
-      answer: 'Yes, absolutely. I am fully licensed, insured, and have over 10 years of professional driving experience. Your safety and comfort are my top priorities.',
+      question: 'Are you licenced and insured?',
+      answer: 'Yes, absolutely. I am fully licenced, insured, and have over 10 years of professional driving experience. Your safety and comfort are my top priorities.',
     },
     {
       question: 'What is your cancellation policy?',
