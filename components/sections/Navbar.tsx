@@ -79,55 +79,39 @@ export const Navbar = () => {
         </div>
 
         {mobileMenuOpen && (
-          <motion.div
-            className="lg:hidden fixed inset-0 bg-gradient-to-br from-[#D4AF37] to-[#B8941F] z-50 flex items-center justify-center"
-            initial={{ opacity: 0, x: '100%' }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: '100%' }}
-            transition={{ duration: 0.3 }}
-          >
+          <div className="lg:hidden fixed inset-0 top-0 left-0 right-0 bottom-0 bg-gradient-to-br from-[#D4AF37] to-[#B8941F] z-[100] flex items-center justify-center">
             <button
-              className="absolute top-6 right-6 text-black hover:text-white transition-colors"
+              className="absolute top-6 right-6 text-black hover:text-white transition-colors z-[101]"
               onClick={() => setMobileMenuOpen(false)}
             >
               <X className="w-8 h-8" />
             </button>
             
-            <div className="flex flex-col items-center space-y-8 text-center px-8">
-              {navLinks.map((link, index) => (
-                <motion.a
+            <div className="flex flex-col items-center space-y-8 text-center px-8 w-full">
+              {navLinks.map((link) => (
+                <a
                   key={link.name}
                   href={link.href}
                   className="text-black hover:text-white transition-colors duration-300 font-bold text-3xl"
                   onClick={() => setMobileMenuOpen(false)}
-                  initial={{ opacity: 0, y: 20 }}
-                  animate={{ opacity: 1, y: 0 }}
-                  transition={{ delay: index * 0.1 }}
                 >
                   {link.name}
-                </motion.a>
+                </a>
               ))}
-              <motion.a 
+              <a 
                 href="tel:+447624354427" 
                 className="flex items-center text-black hover:text-white transition-colors text-2xl font-semibold"
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: navLinks.length * 0.1 }}
               >
                 <Phone className="w-6 h-6 mr-3" />
                 <span>+44 7624 354427</span>
-              </motion.a>
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: (navLinks.length + 1) * 0.1 }}
-              >
+              </a>
+              <div>
                 <Button href="#contact" variant="secondary" size="lg" onClick={() => setMobileMenuOpen(false)}>
                   Book Now
                 </Button>
-              </motion.div>
+              </div>
             </div>
-          </motion.div>
+          </div>
         )}
       </div>
     </motion.nav>
