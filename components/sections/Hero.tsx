@@ -57,9 +57,6 @@ export const Hero = () => {
                 Book Your Transfer
                 <ArrowRight className="ml-2 w-5 h-5" />
               </Button>
-              <Button href="#fleet" variant="outline" size="lg">
-                View Our Fleet
-              </Button>
             </div>
 
             <div className="grid grid-cols-3 gap-6 max-w-2xl mx-auto">
