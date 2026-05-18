@@ -27,7 +27,7 @@ export const About = () => {
             <span className="text-gradient-gold">About Us</span>
           </h2>
           <p className="text-xl text-gray-300 mb-6 leading-relaxed">
-            Exclusive Airport Transfer is a professional chauffeur service based in the Isle of Man, 
+            Exclusive Airport Transfer is a professional driver service based in the Isle of Man, 
             providing reliable transportation since 2014.
           </p>
           <p className="text-gray-400 mb-6 leading-relaxed">

@@ -48,7 +48,7 @@ export const Hero = () => {
             </h1>
 
             <p className="text-xl text-gray-300 mb-8 leading-relaxed max-w-3xl mx-auto">
-              Professional airport transfer and chauffeur service across the Isle of Man. 
+              Professional airport transfer and driver service across the Isle of Man. 
               Comfortable, punctual, and reliable transportation you can count on.
             </p>
 

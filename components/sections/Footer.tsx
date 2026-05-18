@@ -14,7 +14,7 @@ export const Footer = () => {
               <span className="text-white ml-2">Airport Transfer</span>
             </h3>
             <p className="text-gray-400">
-              Professional chauffeur and airport transfer service across the Isle of Man.
+              Professional driver and airport transfer service across the Isle of Man.
             </p>
           </div>
 

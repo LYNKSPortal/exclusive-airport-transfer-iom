@@ -72,7 +72,7 @@ export const Contact = () => {
           <span className="text-gradient-gold">Book Your Transfer</span>
         </h2>
         <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-          Get in touch to reserve your luxury transportation experience
+          Get in touch to reserve your professional transportation service
         </p>
       </motion.div>
 

@@ -17,7 +17,7 @@ export const Services = () => {
     {
       icon: Briefcase,
       title: 'Business Travel',
-      description: 'Professional chauffeur service for business travelers. Punctual and comfortable transportation for meetings and events.',
+      description: 'Professional driver service for business travelers. Punctual and comfortable transportation for meetings and events.',
       features: ['Punctual Service', 'Clean Vehicle', 'Professional'],
     },
     {
