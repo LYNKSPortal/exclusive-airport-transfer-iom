@@ -39,15 +39,19 @@ html {
   overflow-x: hidden;
 }
 
-/* Disable scroll animations on mobile for smoother performance */
+/* Smoother animations on mobile */
 @media (max-width: 768px) {
   * {
-    animation: none !important;
+    animation-duration: 0.35s !important;
+    transition-duration: 0.2s !important;
   }
   
-  /* Keep only basic transitions for interactions */
-  a, button {
-    transition: color 0.2s ease, background-color 0.2s ease, transform 0.2s ease !important;
+  /* Optimize for smoother rendering */
+  * {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
   }
 }
 
