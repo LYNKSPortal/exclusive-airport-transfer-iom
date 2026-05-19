@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Plane, Briefcase, MapPin, Users, Clock, Shield } from 'lucide-react';
+import { Plane, Briefcase, MapPin, Users, Clock, Shield, Camera } from 'lucide-react';
 import { Section } from '../ui/Section';
 import { Card } from '../ui/Card';
 
@@ -15,16 +15,22 @@ export const Services = () => {
       features: ['Flight Monitoring', 'Meet & Greet', 'Luggage Help'],
     },
     {
+      icon: MapPin,
+      title: 'TT Course Tours',
+      description: 'Experience the world-famous TT course with a guided tour. Perfect for motorsport enthusiasts visiting the Isle of Man.',
+      features: ['TT Course Route', 'Photo Stops', 'Expert Commentary'],
+    },
+    {
+      icon: Camera,
+      title: 'Tourist Attraction Tours',
+      description: 'Discover the Isle of Man\'s stunning attractions. From Laxey Wheel to Peel Castle, explore all the island has to offer.',
+      features: ['Custom Itineraries', 'Scenic Routes', 'Local Knowledge'],
+    },
+    {
       icon: Briefcase,
       title: 'Business Travel',
       description: 'Professional driver service for business travelers. Punctual and comfortable transportation for meetings and events.',
       features: ['Punctual Service', 'Clean Vehicle', 'Professional'],
-    },
-    {
-      icon: MapPin,
-      title: 'Island-Wide Service',
-      description: 'Taxi and transfer services across the entire Isle of Man. From Douglas to Ramsey, all destinations covered.',
-      features: ['All Locations', 'Scenic Routes', 'Local Knowledge'],
     },
   ];
 
@@ -45,7 +51,7 @@ export const Services = () => {
         </p>
       </motion.div>
 
-      <div className="grid md:grid-cols-3 gap-8">
+      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
         {services.map((service, index) => (
           <motion.div
             key={service.title}
