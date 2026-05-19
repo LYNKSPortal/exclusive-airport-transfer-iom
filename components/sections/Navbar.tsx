@@ -59,9 +59,9 @@ export const Navbar = () => {
             className="flex items-center space-x-2"
             whileHover={{ scale: 1.05 }}
           >
-            <div className="text-2xl md:text-3xl font-bold">
-              <span className="text-gradient-gold">Exclusive</span>
-              <span className="text-white ml-2">Airport Transfer</span>
+            <div className="text-xl md:text-2xl font-bold">
+              <span className="text-gradient-gold">ABN TAXI SERVICE</span>
+              <span className="text-white ml-2">LIMITED</span>
             </div>
           </motion.div>
 
